@@ -1,7 +1,43 @@
 
 .header-conteiner{
+    padding: 20PX 0;
+    background: #222;
+}
 
-height: 105PX;
-background: blue;
+.logo{
+    color: #fff;
+}
 
+/* Iment  of menu */
+.menu-item{
+    margin-top: 16px;
+}
+
+.menu-item ul{
+    padding: 0px;
+    margin: 0pc;
+}
+
+.menu-item ul li{
+    list-style-type: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.menu-item ul li:hover{
+    color: rgb(217, 255, 0);
+    cursor: pointer;
+    transition: 0.6 ease-in-out;
+}
+
+/* Boton del login */
+
+.btn-login{
+    border: 20px;
+    background: #F80000;
+    border: 10px solid #F80000;
+    border-radius: 60px;
+    color: #fff;
 }
