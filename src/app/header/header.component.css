@@ -4,10 +4,11 @@
     background-color: #000;
 }
 
-.logo{
-    color: #fff;
-}
 
+.new-home-v4-header-logo {
+    border-radius: 200px;
+    width: 100px;
+}
 /* Iment  of menu */
 .menu-item{
     margin-top: 16px;
@@ -35,6 +36,7 @@ a {
     cursor: pointer;
     transition: 0.6 ease-in-out;
 }
+
 
 /* Boton del login */
 
