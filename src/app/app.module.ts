@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+
 import { SedeComponent } from './componets/sede/sede.component';
 import { ProductoComponent } from './componets/producto/producto.component';
 import { ClaseComponent } from './componets/clase/clase.component';
 import { EntrenadoresComponent } from './componets/entrenadores/entrenadores.component';
 import { CarouselComponent } from './componets/producto/carousel/carousel.component';
 import { ConteinerPoductioComponent } from './componets/producto/conteiner-poductio/conteiner-poductio.component';
+import { CarosuelSedeComponent } from './componets/sede/carosuel-sede/carosuel-sede.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { ConteinerPoductioComponent } from './componets/producto/conteiner-poduc
     ClaseComponent,
     EntrenadoresComponent,
     CarouselComponent,
-    ConteinerPoductioComponent
+    ConteinerPoductioComponent,
+    CarosuelSedeComponent
   ],
   imports: [
     BrowserModule,
