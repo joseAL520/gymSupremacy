@@ -16,9 +16,11 @@
                     </ul>
                 </div>
             </div>
-
             <div class="col-md-3 col-sm-6 col-3">
-                <button class="btn-login">Empieza ahora!</button>
+                <button class="btn-login" (click)="openModalLogin()">Empieza ahora!</button>
+                <div class="" *ngIf="openModalSwithLogin == true">
+                    <app-login></app-login>
+                </div>
             </div>
 
         </div>

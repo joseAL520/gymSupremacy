@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  openModalSwithLogin:boolean | undefined;
+
+  openModalLogin(){
+    this.openModalSwithLogin = true;
+  }
 }

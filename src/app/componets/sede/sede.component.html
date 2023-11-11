@@ -9,6 +9,10 @@
         <div class="conteiner-promotions">
             <app-table-promotions></app-table-promotions>
         </div>
+        <button class="btn-login" (click)="openModalLogin()">Empieza ahora!</button>
+        <div class="" *ngIf="openModalSwithLogin == true">
+            <app-login></app-login>
+        </div>
     </section>
 </div>
 

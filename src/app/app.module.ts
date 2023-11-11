@@ -14,6 +14,7 @@ import { CarouselComponent } from './componets/producto/carousel/carousel.compon
 import { ConteinerPoductioComponent } from './componets/producto/conteiner-poductio/conteiner-poductio.component';
 import { CarosuelSedeComponent } from './componets/sede/carosuel-sede/carosuel-sede.component';
 import { TablePromotionsComponent } from './componets/sede/table-promotions/table-promotions.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { TablePromotionsComponent } from './componets/sede/table-promotions/tabl
     CarouselComponent,
     ConteinerPoductioComponent,
     CarosuelSedeComponent,
-    TablePromotionsComponent
+    TablePromotionsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

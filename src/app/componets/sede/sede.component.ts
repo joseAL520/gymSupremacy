@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./sede.component.css']
 })
 export class SedeComponent {
-
+  openModalSwithLogin:boolean | undefined;
+  
+  openModalLogin(){
+    this.openModalSwithLogin = true;
+  }
 }

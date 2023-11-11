@@ -8,11 +8,16 @@ span{
     font-weight: bold;
 }
 .conteiner-promotions{
-    height: 500px;
     top: 608px;
     left: 59px;
     margin: 45px;
     border-radius: 45px;
 }
 
-
+.btn-login{
+    border: 20px;
+    background: #ffad12;
+    border: 10px solid #ffad12;
+    border-radius: 60px;
+    color: black;
+}
