@@ -13,6 +13,7 @@ import { EntrenadoresComponent } from './componets/entrenadores/entrenadores.com
 import { CarouselComponent } from './componets/producto/carousel/carousel.component';
 import { ConteinerPoductioComponent } from './componets/producto/conteiner-poductio/conteiner-poductio.component';
 import { CarosuelSedeComponent } from './componets/sede/carosuel-sede/carosuel-sede.component';
+import { TablePromotionsComponent } from './componets/sede/table-promotions/table-promotions.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CarosuelSedeComponent } from './componets/sede/carosuel-sede/carosuel-s
     EntrenadoresComponent,
     CarouselComponent,
     ConteinerPoductioComponent,
-    CarosuelSedeComponent
+    CarosuelSedeComponent,
+    TablePromotionsComponent
   ],
   imports: [
     BrowserModule,

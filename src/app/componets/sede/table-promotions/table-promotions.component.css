@@ -1,0 +1,17 @@
+.conteiner-table{
+    width: 100px;
+    height: 100px;
+}
+
+th{
+    border-top: 1px solid black;
+}
+
+img{
+    width: 36px;
+    border-radius: 30PX;
+}
+
+span{
+    border-top: 1px solid black;
+}
