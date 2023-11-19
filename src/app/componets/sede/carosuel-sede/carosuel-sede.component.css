@@ -17,29 +17,32 @@
     position: relative;
 }
 
-.conteiner-text{
+/* .conteiner-text{
     position: absolute;
     text-align: center;
     padding: 0 250px;
     top: 250px;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .conteiner-text h2 {
     font-size: 4px;
     margin-bottom: 35px;
-}
+} */
 
+img {
+    border-radius: 33px;
+}
 .slider-box img{
     width: 1260px;
-    height: 249px;
+    height: 300px;
 }
 
 @keyframes slide {
     0%{ margin-left: 0;}
     0%{ margin-left: 0;}
 
-    25%{ margin-left: -100%;}
+    25%{ margin-left: -200%;}
     45%{ margin-left: -100%;}
 }
 
