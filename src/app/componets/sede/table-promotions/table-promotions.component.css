@@ -1,17 +1,14 @@
-.conteiner-table{
-    width: 100px;
-    height: 100px;
+.contteiner-mision{
+    width: 894px;
+    height: 300px;
+    border: 2px solid #555;
 }
 
-th{
-    border-top: 1px solid black;
-}
-
-img{
-    width: 36px;
-    border-radius: 30PX;
-}
-
-span{
-    border-top: 1px solid black;
+.contteiner-vision{
+    position: relative;
+    width: 894px;
+    height: 300px;
+    left: 894px;
+    top:-300px;
+    border: 2px solid #696767;
 }
