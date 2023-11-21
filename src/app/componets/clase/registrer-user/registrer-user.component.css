@@ -1,7 +1,8 @@
 .conteiner-form{
     width: 1000px;
-    height: 900px;
+    height: 600px;
     position: relative;
     left: 65%;
     top: 25px;
+    background: gray;
 }
