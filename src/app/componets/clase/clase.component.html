@@ -1,9 +1,18 @@
-<div class="col-aut p-4 text-center">
-    <h2>
-        <span>Conoces Nuestas clases</span> 
-    </h2> 
-    <section >
-        <div class="conteiner-class">
-        </div>
-    </section>
+<div class="col-md-3 col-sm-6 col-3">
+    <button class="btn-login" (click)="openModalLogin()">
+        <img src="../assets/img/registro.png" width="30" height="30" class="d-inline-block " alt="">
+        Registrar cliente</button>
+    <div class="" *ngIf="openRegistrer == true">
+        <app-registrer-user></app-registrer-user>
+    </div>
 </div>
+
+<div class="col-md-3 col-sm-6 col-3">
+    <button class="btn-login" (click)="openRegistrerUser()">
+        <img src="../assets/img/clientes.png" width="30" height="30" class="d-inline-block " alt="">
+        Lista de clientes</button>
+    <div class="" *ngIf="openListRegistrer == true">
+        <app-lista-registrer-user></app-lista-registrer-user>
+    </div>
+</div>
+

@@ -16,6 +16,8 @@ import { ConteinerPoductioComponent } from './componets/producto/conteiner-poduc
 import { CarosuelSedeComponent } from './componets/sede/carosuel-sede/carosuel-sede.component';
 import { TablePromotionsComponent } from './componets/sede/table-promotions/table-promotions.component';
 import { LoginComponent } from './login/login.component';
+import { RegistrerUserComponent } from './componets/clase/registrer-user/registrer-user.component';
+import { ListaRegistrerUserComponent } from './componets/clase/lista-registrer-user/lista-registrer-user.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { LoginComponent } from './login/login.component';
     ConteinerPoductioComponent,
     CarosuelSedeComponent,
     TablePromotionsComponent,
-    LoginComponent
+    LoginComponent,
+    RegistrerUserComponent,
+    ListaRegistrerUserComponent
   ],
   imports: [
     BrowserModule,

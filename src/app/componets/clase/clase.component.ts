@@ -6,5 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./clase.component.css']
 })
 export class ClaseComponent {
+  openRegistrer:boolean | undefined;
+  openListRegistrer: boolean | undefined;
+
+
+  openModalLogin(){
+    this.openRegistrer = true;
+    this.openListRegistrer=false;
+   
+  }
+  
+  openRegistrerUser(){
+    this.openListRegistrer=true;
+    this.openRegistrer = false;
+   
+  }
+
 
 }
