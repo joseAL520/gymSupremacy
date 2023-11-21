@@ -1,3 +1,4 @@
+<!-- login.component.html -->
 <div class="wrapper fadeInDown">
   <div id="formContent">
     <!-- Tabs Titles -->
@@ -8,16 +9,15 @@
     </div>
 
     <!-- Login Form -->
-    <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="Usuarrio">
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="Contrasena">
+    <form (ngSubmit)="onSubmit()">
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="Usuarrio" [(ngModel)]="username">
+      <input type="text" id="password" class="fadeIn third" name="login" placeholder="Contrasena" [(ngModel)]="password">
       <input type="submit" class="fadeIn fourth" value="Entrar">
     </form>
 
-    <!-- Remind Passowrd -->
+    <!-- Remind Password -->
     <div id="formFooter">
       <a class="underlineHover" href="#">Forgot Password?</a>
     </div>
-
   </div>
 </div>
